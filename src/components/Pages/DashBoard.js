@@ -117,8 +117,8 @@ function DashBoard(){
                                 >
                                 <Table dataSource={allData}  > 
                                     <ColumnGroup title='Name'>
-                                      <Column title='First_Name' dataIndex='employeeFirstName' key='employeeFirstName' ></Column>
-                                      <Column title='Last_Name' dataIndex='employeeLastName' key='employeeLastName'></Column>
+                                      <Column title='First Name' dataIndex='employeeFirstName' key='employeeFirstName' ></Column>
+                                      <Column title='Last Name' dataIndex='employeeLastName' key='employeeLastName'></Column>
                                     </ColumnGroup>
                                     <Column title='DateOfBirth' dataIndex='employeeDob' key='employeeDob'></Column>
                                     <Column title='Gender' dataIndex='employeeGender' key='employeeGender'></Column>
